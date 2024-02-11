@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int x,y,z;
+    printf("Enter three numbers:");
+    scanf("%d %d %d",&x,&y,&z);
+    printf("%d is the largest number",x>y?(z>x?z:x):(y>z?y:z));
+    return 0;
+}
